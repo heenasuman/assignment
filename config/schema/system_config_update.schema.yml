@@ -1,0 +1,6 @@
+system.site:
+  type: config_object
+  mapping:
+    site_api_key:
+      type: label
+      label: 'Site API Key'

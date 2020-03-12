@@ -1,0 +1,7 @@
+system_config_update.route:
+  path: '/page_json/{site_api_key}/{nid}'
+  defaults:
+    _controller: '\Drupal\system_config_update\Controller\SystemConfigUpdate::page_json'
+    _title: 'Page Export'
+  requirements:
+    _permission: 'access content'

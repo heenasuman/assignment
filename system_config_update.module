@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ *
+ * Removes site_api_key variable during uninstall.
+ */
+function system_config_update_uninstall() {
+  \Drupal::configFactory()->getEditable('system.site')->clear('site_api_key')->save();
+}

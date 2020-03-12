@@ -1,0 +1,10 @@
+name: System Configurations Update
+type: module
+description: 'This module is used to perform custom updates for system configurations'
+package: Custom
+# core: 8.x
+
+version: '8.x-1.x'
+core: '8.x'
+project: 'system_config_update'
+datestamp: 1583995088
